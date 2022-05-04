@@ -10,7 +10,7 @@ Sports quiz app.
 
 ## Live
 
-https://radekrzepka.github.io/quiz-react/
+https://react-quiz-70d2a.web.app/
 
 ## Available Scripts
 
