@@ -1,5 +1,13 @@
 const QuestionAnswer = props => {
-	return <div>{props.children}</div>;
+	return (
+		<div
+			onClick={() =>
+				props.changeAnswer(props.questionAnswer, props.questionIndex)
+			}
+		>
+			{props.children}
+		</div>
+	);
 };
 
 export default QuestionAnswer;

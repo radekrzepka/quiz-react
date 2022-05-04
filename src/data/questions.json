@@ -87,6 +87,22 @@
 			"answerC": "2,16 m",
 			"answerD": "2,17 m",
 			"correctAnswer": "C"
+		},
+		{
+			"questionName": "Która z pozycji nazywana jest potocznie 'jedynką'?",
+			"answerA": "niski skrzydłowy",
+			"answerB": "rozgrywający",
+			"answerC": "center",
+			"answerD": "silny skrzydłowy",
+			"correctAnswer": "B"
+		},
+		{
+			"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza?",
+			"answerA": "3,05 m",
+			"answerB": "3,15 m",
+			"answerC": "3 m",
+			"answerD": "3,09 m",
+			"correctAnswer": "A"
 		}
 	]
 }
