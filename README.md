@@ -8,6 +8,8 @@ Sports quiz app.
 
 ## Live
 
+https://radekrzepka.github.io/quiz-react/
+
 ## Available Scripts
 
 In the project directory, you can run:
