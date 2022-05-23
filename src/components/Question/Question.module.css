@@ -1,0 +1,12 @@
+.question-name {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}

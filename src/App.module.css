@@ -12,6 +12,12 @@
 	text-transform: uppercase;
 }
 
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
 .question-number {
 	margin-bottom: 10px;
 	color: #4c4c4c;

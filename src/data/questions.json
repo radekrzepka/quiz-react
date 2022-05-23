@@ -2,107 +2,103 @@
 	"basketball": [
 		{
 			"questionName": "Ile zespołów gra w NBA?",
-			"answerA": "30",
-			"answerB": "20",
-			"answerC": "35",
-			"answerD": "16",
-			"correctAnswer": "A"
+			"answers": [30, 20, 35, 16],
+			"correctAnswer": 0
 		},
 		{
 			"questionName": "Ile meczy rozgrywa każda z drużyn w sezonie zasadniczym?",
-			"answerA": "60",
-			"answerB": "55",
-			"answerC": "80",
-			"answerD": "82",
-			"correctAnswer": "D"
+			"answers": [60, 55, 80, 82],
+			"correctAnswer": 3
 		},
 		{
 			"questionName": "Kto został MVP w sezonie 2020/2021 ?",
-			"answerA": "Luka Doncic",
-			"answerB": "Nikola Jokic",
-			"answerC": "LeBron James",
-			"answerD": "Giannis Antetokounmpo",
-			"correctAnswer": "B"
+			"answers": [
+				"Luka Doncic",
+				"Nikola Jokic",
+				"LeBron James",
+				"Giannis Antetokounmpo"
+			],
+			"correctAnswer": 1
 		},
 		{
 			"questionName": "Który polski koszykarz rozegrał w NBA najwięcej meczy?",
-			"answerA": "Marcin Gortat",
-			"answerB": "Maciej Lampe",
-			"answerC": "Mateusz Ponitka",
-			"answerD": "Adam Wójcik",
-			"correctAnswer": "A"
+			"answers": [
+				"Marcin Gortat",
+				"Maciej Lampe",
+				"Mateusz Ponitka",
+				"Adam Wójcik"
+			],
+			"correctAnswer": 0
 		},
 		{
 			"questionName": "Który zawodnik w przeciągu całej swojej kariery zdobył najwięcej punktów?",
-			"answerA": "LeBron James",
-			"answerB": "Kobe Bryant",
-			"answerC": "Kareem Abdul-Jabbar",
-			"answerD": "Karl Malone",
-			"correctAnswer": "C"
+			"answers": [
+				"LeBron James",
+				"Kobe Bryant",
+				"Kareem Abdul-Jabbar",
+				"Karl Malone"
+			],
+			"correctAnswer": 2
 		},
 		{
 			"questionName": "Który zawodnik zdobył najwięcej punktów w jednym meczu ?",
-			"answerA": "Wilt Chamberlin",
-			"answerB": "Kobe Bryant",
-			"answerC": "Michael Jordan",
-			"answerD": "Elgin Baylor",
-			"correctAnswer": "A"
+			"answers": [
+				"Wilt Chamberlin",
+				"Kobe Bryant",
+				"Michael Jordan",
+				"Elgin Baylor"
+			],
+			"correctAnswer": 0
 		},
 		{
 			"questionName": "Jak nazywa się najwyższy zawodnik w hisotrii NBA?",
-			"answerA": "Yao Ming",
-			"answerB": "Taco Fall",
-			"answerC": "Gheorghe Muresan",
-			"answerD": "Manute Bol",
-			"correctAnswer": "C"
+			"answers": ["Yao Ming", "Taco Fall", "Gheorghe Muresan", "Manute Bol"],
+			"correctAnswer": 2
 		},
 		{
 			"questionName": "Który zawodnik widnieje w logo NBA?",
-			"answerA": "Larry Bird",
-			"answerB": "Jerry West",
-			"answerC": "Bill Russell",
-			"answerD": "Oscar Robertson",
-			"correctAnswer": "B"
+			"answers": [
+				"Larry Bird",
+				"Jerry West",
+				"Bill Russell",
+				"Oscar Robertson"
+			],
+			"correctAnswer": 1
 		},
 		{
 			"questionName": "Ile tytułów mistrzowskich posiada najbaridzej utytułowany zespół Boston Celtics?",
-			"answerA": "16",
-			"answerB": "13",
-			"answerC": "10",
-			"answerD": "17",
-			"correctAnswer": "D"
+			"answers": [16, 13, 10, 17],
+			"correctAnswer": 3
 		},
 		{
 			"questionName": "Jaki zawodnik zdobył najwięcej tytułów MVP?",
-			"answerA": "Bill Russell",
-			"answerB": "Kareem Abdul-Jabbar",
-			"answerC": "LeBron James",
-			"answerD": "Michael Jordan",
-			"correctAnswer": "B"
+			"answers": [
+				"Bill Russell",
+				"Kareem Abdul-Jabbar",
+				"LeBron James",
+				"Michael Jordan"
+			],
+			"correctAnswer": 1
 		},
 		{
 			"questionName": "Ile wzrostu ma Shaq O'Neal?",
-			"answerA": "2,14 m",
-			"answerB": "2,20 m",
-			"answerC": "2,16 m",
-			"answerD": "2,17 m",
-			"correctAnswer": "C"
+			"answers": ["2,14 m", "2,20 m", "2,16 m", "2,17m"],
+			"correctAnswer": 2
 		},
 		{
 			"questionName": "Która z pozycji nazywana jest potocznie 'jedynką'?",
-			"answerA": "niski skrzydłowy",
-			"answerB": "rozgrywający",
-			"answerC": "center",
-			"answerD": "silny skrzydłowy",
-			"correctAnswer": "B"
+			"answers": [
+				"niski skrzywdłowy",
+				"rozgrywający",
+				"center",
+				"silny skrzydłowy"
+			],
+			"correctAnswer": 1
 		},
 		{
 			"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza?",
-			"answerA": "3,05 m",
-			"answerB": "3,15 m",
-			"answerC": "3 m",
-			"answerD": "3,09 m",
-			"correctAnswer": "A"
+			"answers": ["3,05 m", "3,15 m", "3 m", "3,09 m"],
+			"correctAnswer": 1
 		}
 	]
 }

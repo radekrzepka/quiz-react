@@ -43,7 +43,7 @@ const App = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setResolvingTime(prevTime => prevTime + 1);
-		}, 1000);
+		}, 100);
 		return () => clearInterval(interval);
 	}, []);
 
@@ -64,16 +64,21 @@ const App = () => {
 					question={selectedQuestions[selectedQuestion]}
 					questionIndex={selectedQuestion}
 					changeAnswer={changeAnswer}
+					userAnswer={answers.userAnswers[selectedQuestion]}
 				/>
-				<FlagQuestionButton
-					flagQuestion={flagQuestion}
-					questionIndex={selectedQuestion}
-				/>
-				<NextQuestionButton
-					changeQuestion={changeQuestion}
-					questionIndex={selectedQuestion}
-					numberOfQuestions={selectedQuestions.length}
-				/>
+				<div className={styles.buttons}>
+					<FlagQuestionButton
+						changeQuestion={changeQuestion}
+						flagQuestion={flagQuestion}
+						questionIndex={selectedQuestion}
+						numberOfQuestions={selectedQuestions.length}
+					/>
+					<NextQuestionButton
+						changeQuestion={changeQuestion}
+						questionIndex={selectedQuestion}
+						numberOfQuestions={selectedQuestions.length}
+					/>
+				</div>
 			</section>
 		</main>
 	);
