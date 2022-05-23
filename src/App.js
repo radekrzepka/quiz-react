@@ -8,6 +8,8 @@ import Counter from "./components/Counter/Counter";
 import FlagQuestionButton from "./components/buttons/FlagQuestionButton";
 import NextQuestionButton from "./components/buttons/NextQuestionButton";
 
+import QuizAnswers from "./components/QuizAnswers/QuizAnswers";
+
 import "./assets/global.css";
 import styles from "./App.module.css";
 
@@ -20,6 +22,7 @@ const App = () => {
 	const [answers, setAnswers] = useState(initialAnswers);
 	const [selectedQuestion, setSelectedQuestion] = useState(0);
 	const [resolvingTime, setResolvingTime] = useState(0);
+	const [showAnswers, setShowAnswers] = useState(false);
 
 	const changeQuestion = questionNumber => {
 		setSelectedQuestion(questionNumber);
@@ -47,6 +50,16 @@ const App = () => {
 		return () => clearInterval(interval);
 	}, []);
 
+	if (showAnswers)
+		return (
+			<main>
+				<QuizAnswers
+					userAnswers={answers.userAnswers}
+					questions={selectedQuestions}
+				/>
+			</main>
+		);
+
 	return (
 		<main>
 			<QuestionList
@@ -65,6 +78,7 @@ const App = () => {
 					questionIndex={selectedQuestion}
 					changeAnswer={changeAnswer}
 					userAnswer={answers.userAnswers[selectedQuestion]}
+					quizFinished={false}
 				/>
 				<div className={styles.buttons}>
 					<FlagQuestionButton
@@ -77,6 +91,7 @@ const App = () => {
 						changeQuestion={changeQuestion}
 						questionIndex={selectedQuestion}
 						numberOfQuestions={selectedQuestions.length}
+						showAnswers={setShowAnswers}
 					/>
 				</div>
 			</section>

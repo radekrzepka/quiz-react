@@ -8,7 +8,7 @@
 	margin-bottom: 20px;
 }
 
-.answer:hover {
+.answer.notFinished:hover {
 	background-color: #d4d4ff;
 	border: 1px dashed #4141c9;
 }
@@ -16,4 +16,12 @@
 .answer.selected {
 	background-color: #d4d4ff;
 	border: 1px dashed #4141c9;
+}
+
+.answer.finished.correct {
+	background-color: rgb(0 189 0 / 30%);
+}
+
+.answer.finished.incorrect {
+	background-color: rgb(255 0 0 / 30%);
 }
