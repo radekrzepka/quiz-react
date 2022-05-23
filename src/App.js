@@ -1,10 +1,15 @@
+import { useState, useEffect } from "react";
+
 import questions from "./data/questions.json";
 import Question from "./components/Question/Question";
 import QuestionList from "./components/QuestionList/QuestionList";
+
 import Counter from "./components/Counter/Counter";
-import { useState, useEffect } from "react";
 import FlagQuestionButton from "./components/buttons/FlagQuestionButton";
-import CheckAnswerButton from "./components/buttons/CheckAnswerButton";
+import NextQuestionButton from "./components/buttons/NextQuestionButton";
+
+import "./assets/global.css";
+import styles from "./App.module.css";
 
 const App = () => {
 	const selectedQuestions = questions.basketball;
@@ -43,25 +48,34 @@ const App = () => {
 	}, []);
 
 	return (
-		<div className="App">
-			{console.log(answers)}
+		<main>
 			<QuestionList
 				questions={selectedQuestions}
 				answers={answers}
 				changeQuestion={changeQuestion}
 			></QuestionList>
-			<Counter time={resolvingTime}></Counter>
-			<Question
-				question={selectedQuestions[selectedQuestion]}
-				questionIndex={selectedQuestion}
-				changeAnswer={changeAnswer}
-			/>
-			<FlagQuestionButton
-				flagQuestion={flagQuestion}
-				questionIndex={selectedQuestion}
-			/>
-			<CheckAnswerButton />
-		</div>
+			<section className={styles.app}>
+				<p className={styles.category}>Kategoria: koszykówka</p>
+				<p className={styles["question-number"]}>
+					{selectedQuestion + 1}/{selectedQuestions.length}
+				</p>
+				<Counter time={resolvingTime}></Counter>
+				<Question
+					question={selectedQuestions[selectedQuestion]}
+					questionIndex={selectedQuestion}
+					changeAnswer={changeAnswer}
+				/>
+				<FlagQuestionButton
+					flagQuestion={flagQuestion}
+					questionIndex={selectedQuestion}
+				/>
+				<NextQuestionButton
+					changeQuestion={changeQuestion}
+					questionIndex={selectedQuestion}
+					numberOfQuestions={selectedQuestions.length}
+				/>
+			</section>
+		</main>
 	);
 };
 

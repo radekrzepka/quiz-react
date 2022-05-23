@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+.wave {
+	position: absolute;
+	bottom: 0;
+}

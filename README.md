@@ -16,10 +16,6 @@ https://react-quiz-70d2a.web.app/
 
 In the project directory, you can run:
 
-### `npm install`
-
-Installation of all necessary dependencies
-
 ### `npm run dev`
 
 Runs the app in the development mode.\

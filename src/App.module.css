@@ -1,0 +1,19 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.category {
+	margin-bottom: 20px;
+	color: #4141c9;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.question-number {
+	margin-bottom: 10px;
+	color: #4c4c4c;
+	font-weight: bold;
+}

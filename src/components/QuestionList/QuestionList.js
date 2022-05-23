@@ -1,28 +1,20 @@
+import styles from "./QuestionList.module.css";
+
 const QuestionList = props => {
-	const questions = props.questions;
-	const questionColor = questionState => {
-		switch (questionState) {
-			case "solved":
-				return "green";
-			case "flagged":
-				return "yellow";
-			case "unsolved":
-				return "red";
-			default:
-		}
-	};
 	return (
-		<div>
-			{questions.map((question, index) => (
+		<nav className={styles["question-list"]}>
+			{props.questions.map((question, index) => (
 				<div
 					key={question.questionName}
 					onClick={() => props.changeQuestion(index)}
-					style={{ color: questionColor(props.answers.questionState[index]) }}
+					className={`${styles["question-list__item"]} ${
+						styles[props.answers.questionState[index]]
+					}`}
 				>
 					{index + 1}
 				</div>
 			))}
-		</div>
+		</nav>
 	);
 };
 
