@@ -1,4 +1,4 @@
-import styles from "../buttons/Button.module.css";
+import styles from "../../buttons/Button.module.css";
 
 const PlayAgainButton = () => {
 	const refreshQuiz = () => {

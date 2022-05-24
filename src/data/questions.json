@@ -1,104 +1,121 @@
 {
-	"basketball": [
-		{
-			"questionName": "Ile zespołów gra w NBA?",
-			"answers": [30, 20, 35, 16],
-			"correctAnswer": 0
-		},
-		{
-			"questionName": "Ile meczy rozgrywa każda z drużyn w sezonie zasadniczym?",
-			"answers": [60, 55, 80, 82],
-			"correctAnswer": 3
-		},
-		{
-			"questionName": "Kto został MVP w sezonie 2020/2021 ?",
-			"answers": [
-				"Luka Doncic",
-				"Nikola Jokic",
-				"LeBron James",
-				"Giannis Antetokounmpo"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"questionName": "Który polski koszykarz rozegrał w NBA najwięcej meczy?",
-			"answers": [
-				"Marcin Gortat",
-				"Maciej Lampe",
-				"Mateusz Ponitka",
-				"Adam Wójcik"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"questionName": "Który zawodnik w przeciągu całej swojej kariery zdobył najwięcej punktów?",
-			"answers": [
-				"LeBron James",
-				"Kobe Bryant",
-				"Kareem Abdul-Jabbar",
-				"Karl Malone"
-			],
-			"correctAnswer": 2
-		},
-		{
-			"questionName": "Który zawodnik zdobył najwięcej punktów w jednym meczu ?",
-			"answers": [
-				"Wilt Chamberlin",
-				"Kobe Bryant",
-				"Michael Jordan",
-				"Elgin Baylor"
-			],
-			"correctAnswer": 0
-		},
-		{
-			"questionName": "Jak nazywa się najwyższy zawodnik w hisotrii NBA?",
-			"answers": ["Yao Ming", "Taco Fall", "Gheorghe Muresan", "Manute Bol"],
-			"correctAnswer": 2
-		},
-		{
-			"questionName": "Który zawodnik widnieje w logo NBA?",
-			"answers": [
-				"Larry Bird",
-				"Jerry West",
-				"Bill Russell",
-				"Oscar Robertson"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"questionName": "Ile tytułów mistrzowskich posiada najbaridzej utytułowany zespół Boston Celtics?",
-			"answers": [16, 13, 10, 17],
-			"correctAnswer": 3
-		},
-		{
-			"questionName": "Jaki zawodnik zdobył najwięcej tytułów MVP?",
-			"answers": [
-				"Bill Russell",
-				"Kareem Abdul-Jabbar",
-				"LeBron James",
-				"Michael Jordan"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"questionName": "Ile wzrostu ma Shaq O'Neal?",
-			"answers": ["2,14 m", "2,20 m", "2,16 m", "2,17m"],
-			"correctAnswer": 2
-		},
-		{
-			"questionName": "Która z pozycji nazywana jest potocznie 'jedynką'?",
-			"answers": [
-				"niski skrzywdłowy",
-				"rozgrywający",
-				"center",
-				"silny skrzydłowy"
-			],
-			"correctAnswer": 1
-		},
-		{
-			"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza?",
-			"answers": ["3,05 m", "3,15 m", "3 m", "3,09 m"],
-			"correctAnswer": 1
-		}
-	]
+	"basketball": {
+		"name": "Koszykówka",
+		"icon": "basketabll-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Ile zespołów gra w NBA?",
+				"answers": [30, 20, 35, 16],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Ile meczy rozgrywa każda z drużyn w sezonie zasadniczym?",
+				"answers": [60, 55, 80, 82],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Kto został MVP w sezonie 2020/2021 ?",
+				"answers": [
+					"Luka Doncic",
+					"Nikola Jokic",
+					"LeBron James",
+					"Giannis Antetokounmpo"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Który polski koszykarz rozegrał w NBA najwięcej meczy?",
+				"answers": [
+					"Marcin Gortat",
+					"Maciej Lampe",
+					"Mateusz Ponitka",
+					"Adam Wójcik"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Który zawodnik w przeciągu całej swojej kariery zdobył najwięcej punktów?",
+				"answers": [
+					"LeBron James",
+					"Kobe Bryant",
+					"Kareem Abdul-Jabbar",
+					"Karl Malone"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Który zawodnik zdobył najwięcej punktów w jednym meczu ?",
+				"answers": [
+					"Wilt Chamberlin",
+					"Kobe Bryant",
+					"Michael Jordan",
+					"Elgin Baylor"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jak nazywa się najwyższy zawodnik w hisotrii NBA?",
+				"answers": ["Yao Ming", "Taco Fall", "Gheorghe Muresan", "Manute Bol"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Który zawodnik widnieje w logo NBA?",
+				"answers": [
+					"Larry Bird",
+					"Jerry West",
+					"Bill Russell",
+					"Oscar Robertson"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Ile tytułów mistrzowskich posiada najbaridzej utytułowany zespół Boston Celtics?",
+				"answers": [16, 13, 10, 17],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki zawodnik zdobył najwięcej tytułów MVP?",
+				"answers": [
+					"Bill Russell",
+					"Kareem Abdul-Jabbar",
+					"LeBron James",
+					"Michael Jordan"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Ile wzrostu ma Shaq O'Neal?",
+				"answers": ["2,14 m", "2,20 m", "2,16 m", "2,17m"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Która z pozycji nazywana jest potocznie 'jedynką'?",
+				"answers": [
+					"niski skrzywdłowy",
+					"rozgrywający",
+					"center",
+					"silny skrzydłowy"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza?",
+				"answers": ["3,05 m", "3,15 m", "3 m", "3,09 m"],
+				"correctAnswer": 1
+			}
+		]
+	},
+	"soccer": {
+		"name": "Piłka nożna",
+		"icon": "soccer-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Ilu zawodników posiada na boisku jedna drużyna piłkarska?",
+				"answers": [11, 13, 10, 15],
+				"correctAnswer": 0
+			}
+		]
+	}
 }

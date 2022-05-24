@@ -1,7 +1,7 @@
 import Question from "../Question/Question";
-import PlayAgainButton from "./PlayAgainButton";
+import PlayAgainButton from "./PlayAgainButton/PlayAgainButton";
 import globalStyles from "../../App.module.css";
-import styles from "./QuizAnswers.module.css";
+import QuizResult from "./QuizResult/QuizResult";
 
 const QuizAnswers = props => {
 	let howManyCorrects = 0;
@@ -10,9 +10,11 @@ const QuizAnswers = props => {
 	});
 	return (
 		<div className={globalStyles.app}>
-			<p className={styles.score}>
-				Wynik: {howManyCorrects}/{props.questions.length}
-			</p>
+			<QuizResult
+				howManyCorrects={howManyCorrects}
+				howManyQuestions={props.questions.length}
+				resolvingTime={props.resolvingTime}
+			/>
 			<PlayAgainButton />
 			{props.questions.map((question, index) => (
 				<Question
@@ -20,9 +22,8 @@ const QuizAnswers = props => {
 					isCorrectAnswer={props.userAnswers[index] === question.correctAnswer}
 					userAnswer={props.userAnswers[index]}
 					question={question}
-					questionIndex={index}
-					key={index}
 					quizFinished={true}
+					key={index}
 				>
 					{props.userAnswers[index] === question.correctAnswer ? "1" : "0"}/1
 				</Question>

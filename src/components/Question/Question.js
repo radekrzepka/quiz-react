@@ -8,14 +8,14 @@ const Question = props => {
 			{props.children}
 			{props.question.answers.map((answer, index) => (
 				<QuestionAnswer
-					correctAnswer={props.correctAnswer}
+					answerIndex={index}
 					changeAnswer={props.changeAnswer}
-					isCorrectAnswer={props.isCorrectAnswer}
 					questionIndex={props.questionIndex}
 					userAnswer={props.userAnswer}
-					questionAnswer={index}
-					key={index}
 					quizFinished={props.quizFinished}
+					correctAnswer={props.correctAnswer}
+					isCorrectAnswer={props.isCorrectAnswer}
+					key={index}
 				>
 					{String.fromCharCode(65 + index)}: {answer}
 				</QuestionAnswer>

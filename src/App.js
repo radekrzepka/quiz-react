@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import questions from "./data/questions.json";
 import Question from "./components/Question/Question";
@@ -14,15 +14,18 @@ import "./assets/global.css";
 import styles from "./App.module.css";
 
 const App = () => {
-	const selectedQuestions = questions.basketball;
+	const selectedQuestions = questions.basketball.questions;
+	const selectedCategory = questions.basketball.name;
 	const initialAnswers = {
 		userAnswers: Array(selectedQuestions.length).fill(""),
 		questionState: Array(selectedQuestions.length).fill("unsolved"),
 	};
+
 	const [answers, setAnswers] = useState(initialAnswers);
 	const [selectedQuestion, setSelectedQuestion] = useState(0);
 	const [resolvingTime, setResolvingTime] = useState(0);
 	const [showAnswers, setShowAnswers] = useState(false);
+	const funRef = useRef(null);
 
 	const changeQuestion = questionNumber => {
 		setSelectedQuestion(questionNumber);
@@ -44,18 +47,22 @@ const App = () => {
 	};
 
 	useEffect(() => {
-		const interval = setInterval(() => {
-			setResolvingTime(prevTime => prevTime + 1);
-		}, 100);
-		return () => clearInterval(interval);
-	}, []);
+		if (!showAnswers) {
+			funRef.current = setInterval(() => {
+				setResolvingTime(prevTime => prevTime + 1);
+			}, 100);
+		} else {
+			clearInterval(funRef.current);
+		}
+	}, [showAnswers]);
 
 	if (showAnswers)
 		return (
-			<main>
+			<main className={styles["result-margin"]}>
 				<QuizAnswers
 					userAnswers={answers.userAnswers}
 					questions={selectedQuestions}
+					resolvingTime={resolvingTime}
 				/>
 			</main>
 		);
@@ -68,7 +75,7 @@ const App = () => {
 				changeQuestion={changeQuestion}
 			></QuestionList>
 			<section className={styles.app}>
-				<p className={styles.category}>Kategoria: koszykówka</p>
+				<p className={styles.category}>Kategoria: {selectedCategory}</p>
 				<p className={styles["question-number"]}>
 					{selectedQuestion + 1}/{selectedQuestions.length}
 				</p>

@@ -1,26 +1,31 @@
 import styles from "./QuestionAnswer.module.css";
 
 const QuestionAnswer = props => {
+	if (!props.quizFinished)
+		return (
+			<div
+				className={`${styles.answer} 
+					${props.userAnswer === props.answerIndex ? styles.selected : ""} 
+					${styles.notFinished}`}
+				onClick={() =>
+					props.changeAnswer(props.answerIndex, props.questionIndex)
+				}
+			>
+				{props.children}
+			</div>
+		);
 	return (
 		<div
 			className={`${styles.answer} 
-			${props.userAnswer === props.questionAnswer ? styles.selected : ""} 
-			${!props.quizFinished ? styles.notFinished : styles.finished}
+			${styles.finished}
 			${
-				props.userAnswer === props.questionAnswer && !props.isCorrectAnswer
+				props.userAnswer === props.answerIndex && !props.isCorrectAnswer
 					? styles.incorrect
 					: ""
 			} 
-			${
-				props.quizFinished && props.correctAnswer === props.questionAnswer
-					? styles.correct
-					: ""
-			}
+			${props.correctAnswer === props.answerIndex ? styles.correct : ""}
 			
 			`}
-			onClick={() =>
-				props.changeAnswer(props.questionAnswer, props.questionIndex)
-			}
 		>
 			{props.children}
 		</div>
