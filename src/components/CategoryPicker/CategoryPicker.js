@@ -1,5 +1,5 @@
 import questions from "../../data/questions.json";
-import styles from "./CategoryPicker.module.css";
+// import styles from "./CategoryPicker.module.css";
 
 const CategoryPicker = props => {
 	return (
