@@ -10,21 +10,21 @@ import NextQuestionButton from "./components/buttons/NextQuestionButton";
 
 import QuizAnswers from "./components/QuizAnswers/QuizAnswers";
 
+import CategoryPicker from "./components/CategoryPicker/CategoryPicker";
+
 import "./assets/global.css";
 import styles from "./App.module.css";
 
 const App = () => {
-	const selectedQuestions = questions.basketball.questions;
-	const selectedCategory = questions.basketball.name;
-	const initialAnswers = {
-		userAnswers: Array(selectedQuestions.length).fill(""),
-		questionState: Array(selectedQuestions.length).fill("unsolved"),
-	};
-
-	const [answers, setAnswers] = useState(initialAnswers);
+	const [answers, setAnswers] = useState({});
 	const [selectedQuestion, setSelectedQuestion] = useState(0);
 	const [resolvingTime, setResolvingTime] = useState(0);
 	const [showAnswers, setShowAnswers] = useState(false);
+	const [selectedQuestions, setSelectedQuestions] = useState([]);
+	const [selectedCategory, setSelectedCategory] = useState("");
+	const [categoryPicked, setCategoryPicked] = useState(false);
+	const [quizStarted, setQuizStarted] = useState(false);
+
 	const funRef = useRef(null);
 
 	const changeQuestion = questionNumber => {
@@ -46,6 +46,22 @@ const App = () => {
 		});
 	};
 
+	const selectCategory = category => {
+		setSelectedQuestions(questions[category].questions);
+		setSelectedCategory(questions[category].name);
+		const initialAnswers = {
+			userAnswers: Array(selectedQuestions.length).fill(""),
+			questionState: Array(selectedQuestions.length).fill("unsolved"),
+		};
+		setAnswers(initialAnswers);
+		setCategoryPicked(true);
+	};
+
+	if (categoryPicked && !quizStarted) {
+		setResolvingTime(0);
+		setQuizStarted(true);
+	}
+
 	useEffect(() => {
 		if (!showAnswers) {
 			funRef.current = setInterval(() => {
@@ -66,6 +82,9 @@ const App = () => {
 				/>
 			</main>
 		);
+
+	if (!categoryPicked)
+		return <CategoryPicker selectCategory={selectCategory}></CategoryPicker>;
 
 	return (
 		<main>
