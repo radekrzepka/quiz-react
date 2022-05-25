@@ -1,7 +1,7 @@
 {
 	"basketball": {
 		"name": "Koszykówka",
-		"icon": "basketabll-icon.png",
+		"icon": "basketball-icon.png",
 		"results": [],
 		"questions": [
 			{
@@ -115,6 +115,47 @@
 				"questionName": "Ilu zawodników posiada na boisku jedna drużyna piłkarska?",
 				"answers": [11, 13, 10, 15],
 				"correctAnswer": 0
+			}
+		]
+	},
+	"e-sport": {
+		"name": "E-sport",
+		"icon": "esport-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Jaka drużyna wygrała Worlds 2021 w LOL-a ?",
+				"answers": ["G2 Esports", "RNG", "EDward Gaming", "T1"],
+				"correctAnswer": 2
+			}
+		]
+	},
+	"tennis": {
+		"name": "Tenis",
+		"icon": "tennis-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Jaki zawodnik wygrał Wimbledon najwięcej razy ?",
+				"answers": [
+					"Rafael Nadal",
+					"Boris Becker",
+					"Nowak Djokovic",
+					"Pete Sampras"
+				],
+				"correctAnswer": 2
+			}
+		]
+	},
+	"voleyball": {
+		"name": "Siatkówka",
+		"icon": "voleyball-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Na jakiej wysokości ustawiona jest siatka dla mężczyzn ?",
+				"answers": ["2,35 m", "2,43 m", "2,3 m", "2,47 m"],
+				"correctAnswer": 1
 			}
 		]
 	}
