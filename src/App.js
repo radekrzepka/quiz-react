@@ -11,6 +11,7 @@ import NextQuestionButton from "./components/buttons/NextQuestionButton";
 import QuizAnswers from "./components/QuizAnswers/QuizAnswers";
 
 import CategoryPicker from "./components/CategoryPicker/CategoryPicker";
+import Ranking from "./components/Ranking/Ranking";
 
 import "./assets/global.css";
 import styles from "./App.module.css";
@@ -24,6 +25,7 @@ const App = () => {
 	const [selectedCategory, setSelectedCategory] = useState("");
 	const [categoryPicked, setCategoryPicked] = useState(false);
 	const [quizStarted, setQuizStarted] = useState(false);
+	const [showRanking, setShowRanking] = useState(false);
 
 	const funRef = useRef(null);
 
@@ -49,12 +51,19 @@ const App = () => {
 	const selectCategory = category => {
 		setSelectedQuestions(questions[category].questions);
 		setSelectedCategory(questions[category].name);
-		const initialAnswers = {
-			userAnswers: Array(selectedQuestions.length).fill(""),
-			questionState: Array(selectedQuestions.length).fill("unsolved"),
-		};
-		setAnswers(initialAnswers);
+		setAnswers({
+			userAnswers: [],
+			questionState: [],
+		});
 		setCategoryPicked(true);
+	};
+
+	const openRanking = () => {
+		setShowRanking(true);
+	};
+
+	const hideRanking = () => {
+		setShowRanking(false);
 	};
 
 	if (categoryPicked && !quizStarted) {
@@ -83,8 +92,16 @@ const App = () => {
 			</main>
 		);
 
-	if (!categoryPicked)
-		return <CategoryPicker selectCategory={selectCategory}></CategoryPicker>;
+	if (showRanking) return <Ranking hideRanking={hideRanking}></Ranking>;
+
+	if (!categoryPicked) {
+		return (
+			<CategoryPicker
+				selectCategory={selectCategory}
+				showRanking={openRanking}
+			></CategoryPicker>
+		);
+	}
 
 	return (
 		<main>

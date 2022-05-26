@@ -8,9 +8,12 @@ const QuestionList = props => {
 					key={question.questionName}
 					onClick={() => props.changeQuestion(index)}
 					className={`${styles["question-list__item"]} ${
-						styles[props.answers.questionState[index]]
+						props.answers.questionState[index]
+							? styles[props.answers.questionState[index]]
+							: ""
 					}`}
 				>
+					{console.log(props.answers)}
 					{index + 1}
 				</div>
 			))}
