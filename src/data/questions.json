@@ -2,7 +2,28 @@
 	"basketball": {
 		"name": "Koszykówka",
 		"icon": "basketball-icon.png",
-		"results": [],
+		"results": [
+			{
+				"name": "Narix",
+				"score": 9,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "Narix",
+				"score": 12,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "Narix",
+				"score": 11,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "Narix",
+				"score": 9,
+				"resolvingTime": 2100
+			}
+		],
 		"questions": [
 			{
 				"questionName": "Ile zespołów gra w NBA?",
@@ -109,7 +130,28 @@
 	"soccer": {
 		"name": "Piłka nożna",
 		"icon": "soccer-icon.png",
-		"results": [],
+		"results": [
+			{
+				"name": "Test1",
+				"score": 9,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "Test3",
+				"score": 12,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "TEst42",
+				"score": 11,
+				"resolvingTime": 3300
+			},
+			{
+				"name": "Teest15",
+				"score": 9,
+				"resolvingTime": 2100
+			}
+		],
 		"questions": [
 			{
 				"questionName": "Ilu zawodników posiada na boisku jedna drużyna piłkarska?",

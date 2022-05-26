@@ -1,0 +1,38 @@
+.ranking {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.label {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.select {
+	width: 20%;
+	padding: 10px;
+	border-radius: 12px;
+	font-size: 18px;
+}
+
+.result {
+	letter-spacing: 0.01em;
+}
+
+.results {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin-top: 20px;
+}
+
+.best-results {
+	font-weight: bold;
+}
+
+.button {
+	align-self: flex-end;
+}
