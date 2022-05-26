@@ -1,7 +1,8 @@
 .question-list {
 	width: 95%;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	margin: 20px auto;
 }
 

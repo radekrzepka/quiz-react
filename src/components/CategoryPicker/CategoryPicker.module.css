@@ -30,3 +30,18 @@
 .paragraph {
 	margin-bottom: 20px;
 }
+
+@media (max-width: 1024px) {
+	.category-picker {
+		margin-bottom: 200px;
+	}
+	.category {
+		width: 70%;
+	}
+}
+
+@media (max-width: 425px) {
+	.category {
+		width: 90%;
+	}
+}

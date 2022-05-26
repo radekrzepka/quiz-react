@@ -27,3 +27,15 @@
 .result-margin {
 	margin-bottom: 300px;
 }
+
+@media (max-width: 600px) {
+	.buttons {
+		width: 90%;
+	}
+}
+
+@media (max-width: 375px) {
+	.buttons {
+		flex-direction: column;
+	}
+}

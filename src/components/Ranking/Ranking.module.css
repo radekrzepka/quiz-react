@@ -36,3 +36,17 @@
 .button {
 	align-self: flex-end;
 }
+
+@media (max-width: 1024px) {
+	.select,
+	.results {
+		width: 50%;
+	}
+}
+
+@media (max-width: 425px) {
+	.select,
+	.results {
+		width: 90%;
+	}
+}
