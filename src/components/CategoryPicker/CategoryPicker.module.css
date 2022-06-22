@@ -3,6 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin-top: 20px;
+	padding-bottom: 200px;
 }
 
 .category {
@@ -33,7 +34,7 @@
 
 @media (max-width: 1024px) {
 	.category-picker {
-		margin-bottom: 200px;
+		padding-bottom: 100px;
 	}
 	.category {
 		width: 70%;

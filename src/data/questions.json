@@ -26,12 +26,12 @@
 		],
 		"questions": [
 			{
-				"questionName": "Ile zespołów gra w NBA?",
+				"questionName": "Ile zespołów gra w NBA ?",
 				"answers": [30, 20, 35, 16],
 				"correctAnswer": 0
 			},
 			{
-				"questionName": "Ile meczy rozgrywa każda z drużyn w sezonie zasadniczym?",
+				"questionName": "Ile meczy rozgrywa każda z drużyn w sezonie zasadniczym ?",
 				"answers": [60, 55, 80, 82],
 				"correctAnswer": 3
 			},
@@ -46,7 +46,7 @@
 				"correctAnswer": 1
 			},
 			{
-				"questionName": "Który polski koszykarz rozegrał w NBA najwięcej meczy?",
+				"questionName": "Który polski koszykarz rozegrał w NBA najwięcej meczy ?",
 				"answers": [
 					"Marcin Gortat",
 					"Maciej Lampe",
@@ -56,7 +56,7 @@
 				"correctAnswer": 0
 			},
 			{
-				"questionName": "Który zawodnik w przeciągu całej swojej kariery zdobył najwięcej punktów?",
+				"questionName": "Który zawodnik w przeciągu całej swojej kariery zdobył najwięcej punktów ?",
 				"answers": [
 					"LeBron James",
 					"Kobe Bryant",
@@ -76,12 +76,12 @@
 				"correctAnswer": 0
 			},
 			{
-				"questionName": "Jak nazywa się najwyższy zawodnik w hisotrii NBA?",
+				"questionName": "Jak nazywa się najwyższy zawodnik w hisotrii NBA ?",
 				"answers": ["Yao Ming", "Taco Fall", "Gheorghe Muresan", "Manute Bol"],
 				"correctAnswer": 2
 			},
 			{
-				"questionName": "Który zawodnik widnieje w logo NBA?",
+				"questionName": "Który zawodnik widnieje w logo NBA ?",
 				"answers": [
 					"Larry Bird",
 					"Jerry West",
@@ -91,12 +91,12 @@
 				"correctAnswer": 1
 			},
 			{
-				"questionName": "Ile tytułów mistrzowskich posiada najbaridzej utytułowany zespół Boston Celtics?",
+				"questionName": "Ile tytułów mistrzowskich posiada najbaridzej utytułowany zespół Boston Celtics ?",
 				"answers": [16, 13, 10, 17],
 				"correctAnswer": 3
 			},
 			{
-				"questionName": "Jaki zawodnik zdobył najwięcej tytułów MVP?",
+				"questionName": "Jaki zawodnik zdobył najwięcej tytułów MVP ?",
 				"answers": [
 					"Bill Russell",
 					"Kareem Abdul-Jabbar",
@@ -106,12 +106,17 @@
 				"correctAnswer": 1
 			},
 			{
-				"questionName": "Ile wzrostu ma Shaq O'Neal?",
-				"answers": ["2,14 m", "2,20 m", "2,16 m", "2,17m"],
+				"questionName": "Ile trwa mecz koszykówki w NBA ?",
+				"answers": [
+					"4 x 10 minut",
+					"3 x 15 minut",
+					"4 x 12 minut",
+					"2 x 25 minut"
+				],
 				"correctAnswer": 2
 			},
 			{
-				"questionName": "Która z pozycji nazywana jest potocznie 'jedynką'?",
+				"questionName": "Która z pozycji nazywana jest potocznie 'jedynką' ?",
 				"answers": [
 					"niski skrzywdłowy",
 					"rozgrywający",
@@ -121,15 +126,90 @@
 				"correctAnswer": 1
 			},
 			{
-				"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza?",
+				"questionName": "Na jakiej wysokości zawieszona jest obręcz kosza ?",
 				"answers": ["3,05 m", "3,15 m", "3 m", "3,09 m"],
 				"correctAnswer": 1
+			},
+			{
+				"questionName": "Kto był twórcą koszykówki ?",
+				"answers": [
+					"William G. Morgan",
+					"James Naismith",
+					"David Stern",
+					"Phog Allen"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "W którym roku wydraftowany został Michael Jordan ?",
+				"answers": [1984, 1979, 1989, 1986],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Kto jest akutalny komisarzem NBA? ",
+				"answers": [
+					"Larry O'Brien",
+					"David Stern",
+					"Rob Manfred",
+					"Adam Silver"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaka marka butów wydawała buty sygnowane nazwiskiem Allana Iversona ?",
+				"answers": ["Nike", "Reebok", "Adidas", "Puma"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jaki zawodnik rozegrał najwięcej meczy w NBA ?",
+				"answers": [
+					"Kareem Abdul-Jabbar",
+					"Vince Carter",
+					"Robert Parish",
+					"Dirk Nowitzki"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jaki zawodnik zdobył najwięcej pierścieni mistrzowskich ?",
+				"answers": ["Sam Jones", "Bob Cousy", "John Havlicek", "Bill Russell"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki zawodnik rzucił najwięcej celnych 'trójek' w swojej karierze ?",
+				"answers": [
+					"Ray Allen",
+					"Stephen Curry",
+					"James Harden",
+					"Kyle Korver"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Który zawodnik jest pierwszym pickiem z Draftu 2015 ?",
+				"answers": [
+					"Ben Simmons",
+					"Andrew Wiggins",
+					"Karl-Anthony Towns",
+					"Anthony Bennett"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Kto został najmłodszym MVP ?",
+				"answers": [
+					"Derrick Rose",
+					"LeBron James",
+					"Michael Jordan",
+					"Hakeem Olajuwon"
+				],
+				"correctAnswer": 0
 			}
 		]
 	},
-	"soccer": {
+	"football": {
 		"name": "Piłka nożna",
-		"icon": "soccer-icon.png",
+		"icon": "football-icon.png",
 		"results": [
 			{
 				"name": "Test1",
@@ -198,6 +278,23 @@
 				"questionName": "Na jakiej wysokości ustawiona jest siatka dla mężczyzn ?",
 				"answers": ["2,35 m", "2,43 m", "2,3 m", "2,47 m"],
 				"correctAnswer": 1
+			}
+		]
+	},
+	"chess": {
+		"name": "Szachy",
+		"icon": "chess-icon.png",
+		"results": [],
+		"questions": [
+			{
+				"questionName": "Kto jest aktualny mistrzem świata w szachach ?",
+				"answers": [
+					"Magnus Carlsen",
+					"Viswanathan Anand",
+					"Fabiano Caruana",
+					"Władimir Kramnik"
+				],
+				"correctAnswer": 0
 			}
 		]
 	}

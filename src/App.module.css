@@ -25,12 +25,18 @@
 }
 
 .result-margin {
-	margin-bottom: 300px;
+	padding-bottom: 200px;
 }
 
 @media (max-width: 600px) {
 	.buttons {
 		width: 90%;
+	}
+}
+
+@media (max-width: 425px) {
+	.result-margin {
+		padding-bottom: 100px;
 	}
 }
 
