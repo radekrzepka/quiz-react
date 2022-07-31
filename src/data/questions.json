@@ -237,6 +237,151 @@
 				"questionName": "Ilu zawodników posiada na boisku jedna drużyna piłkarska?",
 				"answers": [11, 13, 10, 15],
 				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki zespół zdobył najwięcej tytułów Ligi Mistrzów w historii ?",
+				"answers": [
+					"FC Barcelona",
+					"AC Milan",
+					"Real Madryt",
+					"Bayern Monachium"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jedynym bramkarzem, który zdobył Złotą Piłke był",
+				"answers": [
+					"Lew Jaszyn",
+					"Manuel Neuer",
+					"Iker Casillas",
+					"Gianluigi Buffon"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki kraj zdobył tytuł mistrza świata w 2018 roku ?",
+				"answers": ["Włochy", "Francja", "Beliga", "Brazylia"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Najwięcej bramek w hisotrii Ligi Mistrzów zdobył",
+				"answers": [
+					"Leo Messi",
+					"Robert Lewandowski",
+					"Raul",
+					"Cristiano Ronaldo"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki zespół najwięcej razy wygrał polską ekstraklasę ?",
+				"answers": [
+					"Legia Warszawa",
+					"Górnik Zabrze",
+					"Lech Poznań",
+					"Ruch Chorzów"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Ile minut trwa mecz piłkarski ?",
+				"answers": ["60", "75", "80", "90"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Kto zdobył najwięcej złotych piłek w hisotrii ?",
+				"answers": ["Johan Cruijff", "Leo Messi", "Pele", "Cristiano Ronaldo"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jaki kraj wygrał Euro 2020 ?",
+				"answers": ["Anglia", "Włochy", "Hiszpania", "Francja"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Kto strzelił decydującego o mistrzostwie świata gola w finale mundialu Niemcy-Argentyna w 2014 r.?",
+				"answers": [
+					"Leo Messi",
+					"Andre Schurrle",
+					"Mario Goetze",
+					"Miroslav Klose"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Z jakiego kraju pochodzi Erling Haland ?",
+				"answers": ["Szwecja", "Dania", "Norwegia", "Finlandia"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "W jakim klubie karierę zakończył Iker Casillas ?",
+				"answers": [
+					"Real Madryt",
+					"Athletic Bilbao",
+					"Sporting Lizbona",
+					"FC Porto"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jaki kraj zdobył tytuł mistrza świata najwięcej razy ?",
+				"answers": ["Anglia", "Włochy", "Brazylia", "Niemcy"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jakie kraje zdobyły tytuł mistrza europy najwięcej razy ?",
+				"answers": [
+					"Włochy i Anglia",
+					"Włochy i Niemcy",
+					"Niemcy i Hiszpania",
+					"Hiszpania i Francja"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Z jakiego kraju pochodzi Sadio Mane ?",
+				"answers": ["Ghana", "Senegal", "RPA", "Kongo"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "W jakim kraju odbyły się mistrzostwa świata w 2010 roku ?",
+				"answers": ["Brazylia", "Niemcy", "RPA", "Rosja"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Z jakiego kraju pochodzi Milian Skriniar?",
+				"answers": ["Słowacja", "Słowenia", "Czechy", "Serbia"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki klub wygrał lige hiszpańską najwięcej razy ?",
+				"answers": [
+					"FC Barcelona",
+					"Atletico Madryt",
+					"Sevilla FC",
+					"Real Madryt"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki klub wygrał lige angielską najwięcej razy ?",
+				"answers": [
+					"Manchester City",
+					"Arsenal",
+					"Manchester United",
+					"Chelsea"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Ile tytułów mistrza Włoch zdobył Juventus Turyn ?",
+				"answers": [33, 31, 36, 35],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Z jakiego kraju pochodzi Gonzalo Higuain ?",
+				"answers": ["Urugwaj", "Argentyna", "Paragwaj", "Francja"],
+				"correctAnswer": 0
 			}
 		]
 	},
@@ -249,6 +394,61 @@
 				"questionName": "Jaka drużyna wygrała Worlds 2021 w LOL-a ?",
 				"answers": ["G2 Esports", "RNG", "EDward Gaming", "T1"],
 				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jaka drużyna wygrała IEM Katowice w 2022 w CS GO ?",
+				"answers": ["Faze-Clan", "Navi", "G2", "Virtus Pro"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki zawodnik zdobył tytuł najlepszego gracza roku 2015 w CS GO według HLTV ?",
+				"answers": ["Guardian", "dev1ce", "Snax", "olofmeister"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki zespół wygrał rozgrywki LEC w LOL-a najwięcej razy ?",
+				"answers": ["G2 Esports", "Origen", "Fnatic", "MAD Lions"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaka drużyna wygrała Worlds 2019 w LOL-a ?",
+				"answers": ["RNG", "Invictus Gaming", "FunPlus Phoenix", "T1"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jaki zespół wygrał rozgrywki LCK w LOL-a najwięcej razy ?",
+				"answers": ["T1", "DWG KIA", "Gen.G", "DRX"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki zespół wygrał rozgrywki The International 2021 w Dota 2 ?",
+				"answers": ["PSG.LGD", "Team Secret", "Team Spirit", "Virtus Pro"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Jaki zespół wygrał w 1 sezonie Ultraligi w LOL-a ?",
+				"answers": ["devils.one", "Rogue EC", "PRIDE", "Illuminar Gaming"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jaki zespół wygrał rozgrywki European Masters 3 razy z rzędu ?",
+				"answers": ["AGO Rogue", "LDLC OL", "BIG", "Karmine Corp"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jaki zawodnik zdobył najwięcej tytułow w LEC ?",
+				"answers": ["Perkz", "sOAZ", "Caps", "Jankos"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki zawodnik zdobył najwięcej tytułow w LCS ?",
+				"answers": ["Bjergsen", "Xmithie", "Impact", "Doublelift"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Ile zespół występuje w rozgrywkach LCK ?",
+				"answers": [12, 10, 14, 16],
+				"correctAnswer": 1
 			}
 		]
 	},
