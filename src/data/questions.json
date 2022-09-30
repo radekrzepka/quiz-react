@@ -2,28 +2,6 @@
 	"basketball": {
 		"name": "Koszykówka",
 		"icon": "basketball-icon.png",
-		"results": [
-			{
-				"name": "Narix",
-				"score": 9,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "Narix",
-				"score": 12,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "Narix",
-				"score": 11,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "Narix",
-				"score": 9,
-				"resolvingTime": 2100
-			}
-		],
 		"questions": [
 			{
 				"questionName": "Ile zespołów gra w NBA ?",
@@ -210,28 +188,7 @@
 	"football": {
 		"name": "Piłka nożna",
 		"icon": "football-icon.png",
-		"results": [
-			{
-				"name": "Test1",
-				"score": 9,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "Test3",
-				"score": 12,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "TEst42",
-				"score": 11,
-				"resolvingTime": 3300
-			},
-			{
-				"name": "Teest15",
-				"score": 9,
-				"resolvingTime": 2100
-			}
-		],
+
 		"questions": [
 			{
 				"questionName": "Ilu zawodników posiada na boisku jedna drużyna piłkarska?",
@@ -388,7 +345,6 @@
 	"e-sport": {
 		"name": "E-sport",
 		"icon": "esport-icon.png",
-		"results": [],
 		"questions": [
 			{
 				"questionName": "Jaka drużyna wygrała Worlds 2021 w LOL-a ?",
@@ -455,7 +411,6 @@
 	"tennis": {
 		"name": "Tenis",
 		"icon": "tennis-icon.png",
-		"results": [],
 		"questions": [
 			{
 				"questionName": "Jaki zawodnik wygrał Wimbledon najwięcej razy ?",
@@ -472,7 +427,6 @@
 	"voleyball": {
 		"name": "Siatkówka",
 		"icon": "voleyball-icon.png",
-		"results": [],
 		"questions": [
 			{
 				"questionName": "Na jakiej wysokości ustawiona jest siatka dla mężczyzn ?",
@@ -484,7 +438,6 @@
 	"chess": {
 		"name": "Szachy",
 		"icon": "chess-icon.png",
-		"results": [],
 		"questions": [
 			{
 				"questionName": "Kto jest aktualny mistrzem świata w szachach ?",

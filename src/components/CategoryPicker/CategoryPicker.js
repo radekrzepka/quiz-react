@@ -27,14 +27,6 @@ const CategoryPicker = props => {
 					</p>
 				</div>
 			))}
-			<div className={styles.category} onClick={props.showRanking}>
-				<img
-					src={`icons/ranking-icon.png`}
-					alt={`Ikona rankingu`}
-					className={styles.image}
-				/>
-				<p className={styles.text}>Pokaż ranking</p>
-			</div>
 		</div>
 	);
 };
