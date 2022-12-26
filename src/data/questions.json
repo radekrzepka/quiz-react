@@ -405,21 +405,60 @@
 				"questionName": "Ile zespół występuje w rozgrywkach LCK ?",
 				"answers": [12, 10, 14, 16],
 				"correctAnswer": 1
-			}
-		]
-	},
-	"tennis": {
-		"name": "Tenis",
-		"icon": "tennis-icon.png",
-		"questions": [
+			},
 			{
-				"questionName": "Jaki zawodnik wygrał Wimbledon najwięcej razy ?",
+				"questionName": "W których drużynach grał Marcin 'Jankos' Jankowski przed dołączeniem do G2 Esports?",
 				"answers": [
-					"Rafael Nadal",
-					"Boris Becker",
-					"Nowak Djokovic",
-					"Pete Sampras"
+					"H2k-Gaming i Team ROCCAT",
+					"Misfits i Fnatic",
+					"Fnatic i H2k-Gaming",
+					"Alliance i Kiedyś Miałem Team"
 				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "W 2023 roku EU Master zmienia nazwę na:",
+				"answers": ["LFL", "LCS", "LEC", "EMEA Masters"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jedynym Polakiem, który wygrał mistrzostwo świata League of Legends jest ?",
+				"answers": [
+					"Maciej 'Shushei' Ratuszniak",
+					"Marcin 'Jankos' Jankowski",
+					"Adrian 'Trymbi' Trybus",
+					"Kacper 'Inspired' Słoma"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Ile postaci było dostępnych w alphie Leauge of Legends ?",
+				"answers": [13, 16, 17, 10],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Ile postaci było dostępnych w alphie Leauge of Legends ?",
+				"answers": [13, 16, 17, 10],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Ile razy Marcin 'Jankos' Jankowski wygrał rozgrywki LEC ?",
+				"answers": [4, 5, 3, 6],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Ile wynosiła nagroda za wygranie pierwszych mistrzostw świata w Leauge of Legends ?",
+				"answers": [50000, 30000, 40000, 100000],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jaki kraj jako pierwszy uznał e-sport jako sport ?",
+				"answers": ["Chiny", "Korea Południowa", "USA", "Japonia"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "W jakim roku odbyły się pierwsze zawody e-sportowe ?",
+				"answers": [1980, 1982, 1972, 1975],
 				"correctAnswer": 2
 			}
 		]
@@ -432,6 +471,16 @@
 				"questionName": "Na jakiej wysokości ustawiona jest siatka dla mężczyzn ?",
 				"answers": ["2,35 m", "2,43 m", "2,3 m", "2,47 m"],
 				"correctAnswer": 1
+			},
+			{
+				"questionName": "Ilu zawodników posiada na boisku każda drużyna ?",
+				"answers": [6, 5, 7, 10],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "W którym roku została wymyślona siatkówka ?",
+				"answers": [1903, 1912, 1897, 1895],
+				"correctAnswer": 3
 			}
 		]
 	},
