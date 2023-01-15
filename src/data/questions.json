@@ -497,6 +497,197 @@
 					"Władimir Kramnik"
 				],
 				"correctAnswer": 0
+			},
+			{
+				"questionName": "Pierwszym oficjalnym mistrzem świata jest ?",
+				"answers": [
+					"Wilhelm Steinitz",
+					"Paul Morphy",
+					"Emanuel Lasker",
+					"Aleksandr Alechin"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jaki wariant obrony sycylijskiej rozpoczyna się po ruchach 1.e4 c5 2.Sf3 Sc6 3.d4 c:d4 4.S:d4 Sf6 5.Sc3 e5?",
+				"answers": ["Ałapina", "smoczy", "Swiesznikowa", "Maroczego"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Najwyższy ranking FIDE osiągniety przez Magnusa Carlsena w maju 2014 wynosi:",
+				"answers": [2877, 2893, 2880, 2882],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Najwyższy notowoną w rankingu FIDE szachistką była:",
+				"answers": [
+					"Hou Yifan",
+					"Judit Polgár",
+					"Anna Muzyczuk",
+					"Humpy Koneru"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Jedynym Polakiem, który brał udział w Turnieju Kandydatów jest:",
+				"answers": [
+					"Radosław Wojtaszek",
+					"Michał Krasenkow",
+					"Akiba Rubinstein",
+					"Jan Krzysztof-Duda"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jedynym Polakiem, który brał udział w Turnieju Kandydatów jest:",
+				"answers": [
+					"Radosław Wojtaszek",
+					"Michał Krasenkow",
+					"Akiba Rubinstein",
+					"Jan Krzysztof-Duda"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Najwyższym szachowym międzynarodowym tytułem jest:",
+				"answers": ["IM", "WGM", "GM", "FM"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Najmłodszym mistrzem świata został:",
+				"answers": [
+					"Michaił Tal",
+					"Magnus Carlsen",
+					"Garri Kasparow",
+					"Władimir Kramnik"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Twórcą szachów 960 jest:",
+				"answers": [
+					"Bobby Fischer",
+					"Boris Spasski",
+					"Garri Kasparow",
+					"Viswanathan Anand"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Zwycięzcą Olimipiady Szachowej w 2022 zostały: ",
+				"answers": ["Armenia", "USA", "Indie", "Uzbekistan"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Szachistą, który najwięcej razy wygrał Mistrzostwa Polski jest:",
+				"answers": [
+					"Radosław Wojtaszek",
+					"Włodzimierz Schmidt",
+					"Mateusz Bartel",
+					"Bogdan Śliwa"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Debiutem rozpoczynającym się od ruchów 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 jest:",
+				"answers": [
+					"Partia szkocka, główny wariant ",
+					"Partia hiszpańska, wariant zamknięty",
+					"Partia hiszpańska, obrona berlińska",
+					"Obrona francuska, wariant Tarrascha"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Debiutem rozpoczynającym się od ruchów 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 jest:",
+				"answers": [
+					"Partia szkocka, główny wariant",
+					"Partia hiszpańska, wariant zamknięty",
+					"Partia hiszpańska, obrona berlińska",
+					"Obrona francuska, wariant Tarrascha"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Najwięcej punktowo wartą bierką jest:",
+				"answers": ["Wieża", "Hetman", "Goniec", "Skoczek"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Partia hiszpańska, swoja angielską nazwę wywodzi od jakiego szachisty?",
+				"answers": [
+					"Siegbert Tarrascha",
+					"Ruy Lopez'a",
+					"Wilhelma Steinitza",
+					"Ernsta Grünfelda"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Bobby Fischer w meczu w 1972 roku o mistrzostwo świata pojedynkował się z:",
+				"answers": [
+					"Tigranem Petrosjanem",
+					"Garri Kasparowem",
+					"Borisem Spasskim",
+					"Anatolijem Karpowem"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Czwartym mistrzem świata jest:",
+				"answers": [
+					"Max Euwe",
+					"Aleksandr Alechin",
+					"Michaił Botwinik",
+					"Michaił Tal"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Turniej kandydatów w 2018 roku wygrał:",
+				"answers": [
+					"Szachrijar Mammedjarow",
+					"Siergiej Kariakin",
+					"Jan Niepomniaszczij",
+					"Fabiano Caruana"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Mecz o mistrzostwo świata w 2023 roku odbędzie się pomiędzy:",
+				"answers": [
+					"Magnusem Carlsenem i Fabiano Caruana",
+					"Magnusem Carlsenem i Janem Niepomniaszczij",
+					"Ding Lirenem i Fabiano Caruana",
+					"Ding Lirenem i Janem Niepomniaszczij"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "W 2013 roku Magnus Carlsen został mistrzem świata po pokonaniu:",
+				"answers": [
+					"Garriego Kassparowa",
+					"Władimira Kramnika",
+					"Viswanathana Ananda",
+					"Siergieja Kariakina"
+				],
+				"correctAnswer": 2
+			}
+		]
+	},
+	"tennis": {
+		"name": "Tenis",
+		"icon": "tennis-icon.png",
+		"questions": [
+			{
+				"questionName": "W 2022 roku męski Wimbledon wygrał:",
+				"answers": [
+					"Rafael Nadal",
+					"Nick Kyrgios",
+					"Novak Djokovic",
+					"Cameron Norrie"
+				],
+				"correctAnswer": 2
 			}
 		]
 	}

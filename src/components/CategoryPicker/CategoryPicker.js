@@ -4,7 +4,7 @@ import styles from "./CategoryPicker.module.css";
 const CategoryPicker = props => {
 	return (
 		<div className={styles["category-picker"]}>
-			<h1 className={styles.header}>Quizy</h1>
+			<h1 className={styles.header}>Quizy sportowe</h1>
 			<p className={styles.paragraph}>Wybierz kategorię, aby rozpocząć quiz</p>
 			{Object.keys(questions).map((category, index) => (
 				<div
