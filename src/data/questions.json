@@ -481,6 +481,101 @@
 				"questionName": "W którym roku została wymyślona siatkówka ?",
 				"answers": [1903, 1912, 1897, 1895],
 				"correctAnswer": 3
+			},
+			{
+				"questionName": "Zwycięzcą Ligi Mistrzów w sezonie 2021/2022 zostało ?",
+				"answers": [
+					"Grupa Azoty ZAKSA Kędzierzyn-Koźle",
+					"Sir Sicoma Colussi Perugia",
+					"Jastrzębski Węgiel",
+					"Itas Trentino"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Zwycięzcą Ligi Mistrzów w sezonie 2021/2022 zostało",
+				"answers": [
+					"ZAKSA Kędzierzyn-Koźle",
+					"Sir Sicoma Colussi Perugia",
+					"Jastrzębski Węgiel",
+					"Itas Trentino"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Wysokość siatki dla meżczyzn wynosi:",
+				"answers": ["2,39 m", "2,45 m", "2,31 m", "2,43 m"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Wysokość siatki dla kobiet wynosi:",
+				"answers": ["2,17 m", "2,31 m", "2,24 m", "2,27 m"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Męskim mistrzem świata w 2022 roku zostali:",
+				"answers": ["Włosi", "Brazylijczycy", "Słoweńcy", "Polacy"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Kobiecym mistrzem świata w 2022 roku zostały:",
+				"answers": ["Brazylijki", "Włoszki", "Sebki", "Chinki"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Zespołem, który wygrał Ligę Mistrzów najwięcej razy jest:",
+				"answers": [
+					"CSKA Moskwa",
+					"Modena Volley",
+					"ZAKSA Kędzierzyn-Koźle",
+					"Zenit Kazań"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Najwięcej meczy w polskiej kadrze rozegrał:",
+				"answers": [
+					"Ireneusz Kłos",
+					"Piotr Gruszka",
+					"Bartosz Kurek",
+					"Paweł Zagumny"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Skrótem Międzynarodowej Federacji Piłki Siatkowej jest: ",
+				"answers": ["IVB", "FIVB", "VIB", "FVIB"],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Męskim mistrzem olimpijskim z roku 2020 jest: ",
+				"answers": ["USA", "Polska", "Francja", "Brazylia"],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Kobiecym mistrzem olimpijskim z roku 2020 jest: ",
+				"answers": ["Brazylia", "Argentyna", "Francja", "Rosja"],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Do ilu punktów jest rozgrywany set w siatkówce: ",
+				"answers": [28, 26, 25, 30],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Pierwsze mistrzostwa świata w siatkówce zostały rozegrane w: ",
+				"answers": [1949, 1953, 1951, 1957],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Ile razy Polska kadra wygrała tytuł mistrza świata: ",
+				"answers": [5, 6, 3, 4],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Najwięcej złotych medali mistrzostw świata zdobyły: ",
+				"answers": ["ZSRR/Rosja", "Włochy", "Polska", "Francja"],
+				"correctAnswer": 0
 			}
 		]
 	},
