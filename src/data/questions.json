@@ -783,6 +783,106 @@
 					"Cameron Norrie"
 				],
 				"correctAnswer": 2
+			},
+			{
+				"questionName": "Boisko do gry singlowej ma wymiary:",
+				"answers": [
+					"23,63 m x 9,11 m",
+					"23,14 m x 8,72 m",
+					"23,77 m x 8,23 m",
+					"23,11 m x 8,82 m"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "W któym roku został rozegrany pierwszy Wimbledon:",
+				"answers": [1877, 1901, 1893, 1888],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Ile turniejów wchodzi w skład Wielkiego Szlemu?",
+				"answers": [6, 3, 5, 4],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Australian Open najczęściej wygrywał: ",
+				"answers": [
+					"Novak Djokovic",
+					"Rafael Nadal",
+					"Roger Federer",
+					"Roy Emerson"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Jednym zdobywcą Złotego Wielkiego szlema jest: ",
+				"answers": [
+					"Steffi Graf",
+					"Serena Williams",
+					"Andre Agassi",
+					"Ashleigh Barty"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Światowy Dzień Tenisa obchodzony jest: ",
+				"answers": [
+					"w drugi piątek maja",
+					"w pierwszym poniedziałek maja",
+					"w pierwszy piątek kwietnia",
+					"w pierwszym poniedziałek marca"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Pierwszym polskim triufatorem/triumfatorką Wielkiego Szlemu jest: ",
+				"answers": [
+					"Agnieszka Radwańska",
+					"Hubert Hurkacz",
+					"Iga Świątek",
+					"Jerzy Janowicz"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Ile set ma gemów?",
+				"answers": [6, 7, 8, 4],
+				"correctAnswer": 0
+			},
+			{
+				"questionName": "Jakiej narodowości jest Roger Federer?",
+				"answers": ["Austria", "Niemcy", "Kanada", "Szwajacarja"],
+				"correctAnswer": 3
+			},
+			{
+				"questionName": "Na jakiej nawierzchni jest rozgrywany Wimbledon?",
+				"answers": [
+					"ziemnej",
+					"twardej (DecoTurf)",
+					"trawiasta",
+					"twarda (Plexicushion)"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"questionName": "Zwycięzcą US Open w roku 2022 był?",
+				"answers": [
+					"Novak Djokovic",
+					"Carlos Alcaraz",
+					"Rafael Nadal",
+					"Nick Kyrgios"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"questionName": "Zwycięzcą igrzysk olimpijskich w 2016 roku jest:",
+				"answers": [
+					"Juan Martín del Potro",
+					"Roger Federer",
+					"Novak Djokovic",
+					"Andy Murray"
+				],
+				"correctAnswer": 3
 			}
 		]
 	}
