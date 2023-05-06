@@ -8,7 +8,7 @@ My first project made in React. It's quiz app, where you can choose your categor
 
 ## Live
 
-https://react-quiz-70d2a.web.app/
+https://radekrzepka.github.io/quiz-react/
 
 ## Available Scripts
 
