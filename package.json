@@ -1,7 +1,7 @@
 {
 	"name": "quiz-react",
 	"version": "0.1.0",
-	"homepage": "https://radekrzepka.github.io/react-quiz",
+	"homepage": "https://radekrzepka.github.io/quiz-react",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.4",
