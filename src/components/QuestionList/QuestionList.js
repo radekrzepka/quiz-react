@@ -13,7 +13,6 @@ const QuestionList = props => {
 							: ""
 					}`}
 				>
-					{console.log(props.answers)}
 					{index + 1}
 				</div>
 			))}
