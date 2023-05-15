@@ -1,6 +1,6 @@
 # React sports quiz
 
-My first project made in React. It's quiz app, where you can choose your category and test your knowledge of chosen sport.
+Sports quiz app, where you can choose your category and test your knowledge of chosen sport.
 
 ## Technologies
 
