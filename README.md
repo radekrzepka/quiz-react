@@ -1,49 +1,92 @@
-# React sports quiz
+# Quiz React
 
-Sports quiz app, where you can choose your category and test your knowledge of chosen sport.
+A responsive and interactive quiz application built with React.
 
-## Technologies
+## Table of Contents
 
-- React
-- CSS Modules
+- [Quiz React](#quiz-react)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Key Features](#key-features)
+  - [Technologies Used](#technologies-used)
+    - [Frontend Technologies](#frontend-technologies)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation and Setup](#installation-and-setup)
 
-## Live
+## Overview
 
-https://radekrzepka.github.io/quiz-react/
+Quiz React is a web application that allows users to test their knowledge across different categories. The application features a clean, user-friendly interface where users can:
 
-## Available Scripts
+- Select quiz categories
+- Answer questions
+- Flag difficult questions for review
+- Track time spent on the quiz
+- Review answers and see their score at the end
 
-In the project directory, you can run:
+[Live Demo](https://radekrzepka.github.io/quiz-react)
 
-### `npm start`
+![Screenshot from app](./readme-images/app-1.png)
+![Screenshot from app](./readme-images/app-2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Category Selection**: Choose from various quiz categories
+- **Interactive Question Interface**: User-friendly interface for answering questions
+- **Question Navigation**: Easily navigate between questions
+- **Question Flagging**: Mark difficult questions for later review
+- **Timer**: Track the time spent on the quiz
+- **Results Review**: See detailed results with correct answers after completing the quiz
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend Technologies
 
-### `npm run build`
+- **Framework**: React.js
+- **State Management**: React Hooks (useState, useEffect, useRef)
+- **Styling**: CSS Modules
+- **Deployment**: GitHub Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (v12+)
+- npm (v6+)
 
-### `npm run eject`
+### Installation and Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   git clone https://github.com/radekrzepka/quiz-react.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   cd quiz-react
+   ```
+
+3. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm start
+   ```
+
+5. To build for production:
+
+   ```
+   npm run build
+   ```
+
+6. To deploy to GitHub Pages:
+   ```
+   npm run deploy
+   ```
